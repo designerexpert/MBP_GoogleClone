@@ -1,0 +1,8 @@
+.topNav_wrapper {
+    display: flex;
+    justify-content: center;   /* <- Left to Right ->*/
+    align-items: center;       /* <- Top to Bottom ->*/
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 3.5rem;
+}
