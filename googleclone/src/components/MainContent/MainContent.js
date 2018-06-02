@@ -16,6 +16,7 @@ class MainContent extends Component {
     }
 
     iflHandler = () => {
+        if (this.state.searchCriteria === '') return;
         let combined = `https://www.${this.state.searchCriteria}.com`;
         window.location.href = combined;
     }
